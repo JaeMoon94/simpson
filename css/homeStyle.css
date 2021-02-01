@@ -1,0 +1,78 @@
+
+
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: yellow;
+    font-family: 'Gloria Hallelujah', cursive;
+    
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: yellow;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: yellow;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: yellow;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: yellow;
+  }
+  .container-fluid {
+    background-color: deepskyblue ;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+
+  footer
+  {
+    color:#2f2f2f;
+  }
+
+  p.homer
+  {
+      margin-bottom: 20px;
+  }
+
+  .col-sm-4
+  {
+      padding: 20px;
+  }
+  p.maggie
+  {
+    margin-bottom: 40px;
+  }
+
+  img.fam
+  {
+      width: 100%;
+  }
+
+  img.poster
+  {
+      width: 100%;
+  }
+  p.exmplain
+  {
+      font-size: 20px;
+  }
+
+  

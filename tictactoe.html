@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+    <head><title>TicTacToe</title>
+
+        <link href="css/style.css" rel = "stylesheet" type = "text/css">
+        <script src="js/script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body onload = "startGame();" muted ="muted">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="index.html">Home</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="tictactoe.html">TicTacToe Game</a></li>
+                  <li><a href="about.html">about</a></li>
+                  <li><a href="contact.html">contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <!-- <div class="title"><img src="img/title.png"></div> -->
+        <br>
+        <br>
+        <h1 id = "showwinner" class="name">TIC TAC TOE</h2>
+        <div class="wrapper">
+        <div class = "character">
+            <div class ="homer">
+                <img src="img/simpson.png">
+            </div>
+            <div class = "bart">
+                <img src="img/bart.png">
+            </div>
+        </div>
+        <div class = "board" id = "game-board">
+            <div id = "row-1"> 
+                <div onclick="playGame(this,1)"></div>
+                <div onclick="playGame(this,2)"></div>
+                <div onclick="playGame(this,4)"></div> 
+            </div>
+            <div id = "row-2"> 
+                <div onclick="playGame(this,8)"></div>
+                <div onclick="playGame(this,16)"></div>
+                <div onclick="playGame(this,32)"></div>
+            </div>
+            <div id = "row-3">
+                <div onclick="playGame(this,64)"></div>
+                <div onclick="playGame(this,128)"></div>
+                <div onclick="playGame(this,256)"></div>
+            </div>
+        </div>
+        <div class = "scoreboard">
+            <div id = "message" class="gameinfo">
+                Game Information
+            </div>
+        </div>
+    </div>
+    <div class = "regame">
+       <button class="hide" id="again" onclick="reset()">AGAIN?</button>
+    </div>    
+
+    <footer class="navbar navbar-default navbar-fixed-bottom">
+        <div class="text-center">
+            Hello
+        </div>
+        
+    </footer>
+
+    </body>
+</html>
+
+
+
+    

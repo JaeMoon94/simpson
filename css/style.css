@@ -1,0 +1,207 @@
+*
+{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+body
+{
+    background-color: deepskyblue !important;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+
+  footer
+  {
+    color:#2f2f2f;
+  }
+.name
+{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: yellow;
+    font-size: 50px;
+    font-weight: bold;
+}
+div.title
+{
+    text-align: center;
+}
+div.wrapper
+{
+
+    display: flex;
+}
+
+div.character
+{
+    padding: 10px;   
+    width: 250px;
+    text-align: center;
+    flex:1;
+    
+}
+div.scoreboard
+{
+    flex: 1;
+    text-align: left;
+
+}
+div.gameinfo
+{
+    font-family:'Gloria Hallelujah', cursive;
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div.bart img
+{
+    width: 200px;
+
+}
+div.board
+{
+    margin: 20px;
+    text-align: center;
+    width: 454px;
+    flex:2;
+}
+
+div[id^= "row-"] div
+{
+    border: 2px solid yellow;
+    height: 150px;
+    width: 150px;
+    float : left;
+}
+div[id^= "row-"]
+{
+    margin-left: 16%;
+    clear:left;
+}
+.donut
+{
+    width: 141px;
+}
+.skateboard
+{
+    width: 141px;
+}
+li
+{
+    list-style: none;
+}
+
+div.regame
+{
+    text-align: center;
+    margin:30px;
+}
+.show
+{
+    font-size: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: yellow;
+    font-weight: bold;
+    background-color: deepskyblue;
+    border: none;
+}
+.hide
+{
+    display: none;
+}
+
+@media only screen and (max-width: 1200px)
+{
+   
+    .donut
+    {
+        width: 70px;
+    }
+    .skateboard
+    {
+        width: 70px;
+    }
+
+    div[id^= "row-"] div
+    {
+        border: 2px solid yellow;
+        height: 100px;
+        width: 100px;
+        float : left;
+    }
+    div[id^= "row-"]
+    {
+        margin-left: 10%;
+        clear:left;
+    }
+    div.homer img
+    {
+        width: 100px;
+    }
+    div.bart img
+    {
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 800px)
+{
+   
+    .donut
+    {
+        width: 30px;
+    }
+    .skateboard
+    {
+        width: 30px;
+    }
+
+    div[id^= "row-"] div
+    {
+        border: 2px solid yellow;
+        height: 35px;
+        width: 35px;
+        float : left;
+    }
+    div[id^= "row-"]
+    {
+        margin-left: 10%;
+        clear:left;
+    }
+    #showwinner
+    {
+        font-size: 30px;
+    }
+    .name
+    {
+        font-size: 30px;
+    }
+    .gameinfo
+    {
+        font-size: 20px;
+    }
+    #message
+    {
+        font-size: 15px;
+    }
+    .regame
+    {
+        font-size: 20px;
+    }
+}
+
+
